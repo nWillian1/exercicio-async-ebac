@@ -22,5 +22,5 @@ from . import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('api/', views.async_view, name='async_view'),
+    path('api/', views.api, name='api'),
 ]
